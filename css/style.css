@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Jaro:opsz@6..72&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Protest+Revolution&display=swap');
+
+
+body {
+    
+    
+    background-repeat: no-repeat;
+    background-attachment:fixed ;
+    background-size: cover;
+    }
+
+
+
+
+@media (max-width: 720px){
+.titulo{
+
+display: flex;
+
+justify-content: center;
+
+    font-family: "Ga Maamli", serif;
+    font-size:7.5vh ;
+    font-style: normal; 
+
+}
+}
+
+@media (min-width: 720px){
+.titulo{
+
+display: flex;
+
+justify-content: center;
+
+    font-family: "Ga Maamli", serif;
+    font-size:10vh ;
+    font-style: normal; 
+
+}
+}
+
+
+
+
+
+@media (max-width: 720px){
+h2{
+font-size:7.5vh ;
+}
+}
+
+@media (min-width: 720px){
+h2{
+font-size:10vh ;
+}
+}
+
+
+@media (max-width: 720px){
+.imag {
+justify-content: space-around;
+align-items: center;
+height: 30vh;
+width: 30vw;
+margin: 11vw;
+
+}
+
+}
+
+@media (min-width: 720px){
+.imag {display: flex;
+justify-content: space-around;
+align-items: center;
+height: 30vh;
+width: 30vw;
+margin-top: 10vw; 
+margin-left: 30vw;    
+
+
+}
+
+}
