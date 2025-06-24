@@ -60,25 +60,60 @@ font-size:10vh ;
 
 @media (max-width: 720px){
 .imag {
+display: flex;
 justify-content: space-around;
 align-items: center;
 height: 30vh;
 width: 30vw;
-margin: 11vw;
 
+
+margin-top: 20vw;  
 }
 
 }
 
 @media (min-width: 720px){
-.imag {display: flex;
+.imag {
+display: flex;
 justify-content: space-around;
 align-items: center;
 height: 30vh;
 width: 30vw;
+
+
 margin-top: 10vw;  
 
 
 }
+
+}
+
+
+
+
+
+@media (max-width: 720px){
+.j{
+
+width: 30vw;
+
+
+
+}
+
+
+}
+
+
+
+@media (min-width: 720px){
+.j{
+
+width: 30vw;
+
+
+
+}
+
 
 }
